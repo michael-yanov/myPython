@@ -1,10 +1,2 @@
-a = [1, 2, 8, 9, 10, 56, 99]
-
-print(type(a))
-print(a)
-a.append(145)
-print(a)
-a.insert(0, 31)
-print(a)
-a.remove(145)
-print(a)
+result = ('4.01.1', '4.01.2', '4.01.1', '4.01.3', '4.01.3')
+print(result.count('4.01.1'), result.count('4.01.3'))
