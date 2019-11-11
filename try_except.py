@@ -1,12 +1,19 @@
-a = input('type first here - ')
-b = input('type second here - ')
+a = input('enter the first digit here - ')
+b = input('enter the second digit here - ')
 try:
-    a_num = float(a)
-    b_num = float(b)
-    c = a_num + b_num
-    print('the number is - ', c)
-except:
-    # a = str(a)
-    # b = str(b)
-    # c = a + b
-    print('the string is - ', a + b)
+    if (a != '') and (b != ''):
+        a = float(a)
+        b = float(b)
+        c = input('type action here - ')
+        if c == '+':
+            print(a + b)
+        elif c == '-':
+            print(a - b)
+        elif c == '*':
+            print(a * b)
+        elif c == '/':
+            print(a / b)
+except TypeError:
+    print('you need to enter two digits')
+except ZeroDivisionError:
+    print('you can`t type zero')
