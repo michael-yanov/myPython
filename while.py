@@ -34,4 +34,4 @@ i = -1
 while i < 20:
     i = i + 1
     n = 2 ** i
-    print('2 in ', i, '=', n)
+    print('2 in', i, '=', n)
