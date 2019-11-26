@@ -11,4 +11,4 @@ print(
     '\r\\\ - Backslash \\\n'
     '\r\\" - Double quotation mark \"\n'
     '\r\\\' - Single quotation mark \'\n'
-)
+    )
