@@ -3,6 +3,7 @@
 #     print('OK')
 
 print('-----------////////////-------------')
+print('----------////////////--------------')
 
 y = int(input('Please input number here: '))
 if y > 0:
