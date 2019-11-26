@@ -30,7 +30,7 @@
 #         break
 # print(total)
 
-i = -1
+i = -3
 while i < 20:
     i = i + 1
     n = 2 ** i
