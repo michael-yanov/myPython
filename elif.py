@@ -1,27 +1,7 @@
-x = input('Enter number here: ')
-try:
-    x = float(x)
-    if x > 0:
-        print('1')
-    elif x == 0:
-        print('0')
-    else:
-        print('-1')
-except ValueError:
-    print('ERROR - Enter a number')
-# old = input('Your age: ')
-# try:
-#     old = int(old)
-#     print('Рекомендовано:', end=' ')
-#     if 3 <= old < 6:
-#         print('"Заяц в лабиринте"')
-#     elif 6 <= old < 12:
-#         print('"Марсианин"')
-#     elif 12 <= old < 16:
-#         print('"Загадочный остров"')
-#     elif 16 <= old:
-#         print('"Поток сознания"')
-#     else:
-#         print('You are too small for watching TV')
-# except ValueError:
-#     print ('ERROR - You need to enter integer')
+a = int(input('Enter the number: '))
+b = int(input('Enter 1: B to Kb. Enter 2: Kb to B '))
+
+if b == 1:
+    print('{0} B it`s {1} Kb'.format(a, a//1000))
+else:
+    print('{0} Kb it`s {1} B'.format(a, a*1000))
