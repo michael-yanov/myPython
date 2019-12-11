@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe2f6441-0b93-4ca0-9149-79969fd237f1" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+    <list default="true" id="fe2f6441-0b93-4ca0-9149-79969fd237f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuple&amp;List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tuple&amp;List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elif.py" beforeDir="false" afterPath="$PROJECT_DIR$/elif.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/while.py" beforeDir="false" afterPath="$PROJECT_DIR$/while.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.elif">
+  <component name="RunManager" selected="Python.func">
     <configuration name="Tuple&amp;List" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="for" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="func" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.func" />
+        <item itemvalue="Python.while" />
         <item itemvalue="Python.elif" />
         <item itemvalue="Python.Tuple&amp;List" />
         <item itemvalue="Python.function" />
-        <item itemvalue="Python.for" />
-        <item itemvalue="Python.while" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574803230815</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <created>1576011837692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576011837692</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,30 +296,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1575457989202">
+    <state x="324" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1576011837484">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="324" y="27" width="777" height="741" key="CommitChangelistDialog2/70.27.1296.741@70.27.1296.741" timestamp="1575457989202" />
-    <state width="1273" height="172" key="GridCell.Tab.0.bottom" timestamp="1575472068633">
+    <state x="324" y="27" width="777" height="741" key="CommitChangelistDialog2/70.27.1296.741@70.27.1296.741" timestamp="1576011837484" />
+    <state width="625" height="172" key="GridCell.Tab.0.bottom" timestamp="1576018454711">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1575472068633" />
-    <state width="1273" height="172" key="GridCell.Tab.0.center" timestamp="1575472068632">
+    <state width="625" height="172" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1576018454711" />
+    <state width="625" height="172" key="GridCell.Tab.0.center" timestamp="1576018454710">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1575472068632" />
-    <state width="1273" height="172" key="GridCell.Tab.0.left" timestamp="1575472068632">
+    <state width="625" height="172" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1576018454710" />
+    <state width="625" height="172" key="GridCell.Tab.0.left" timestamp="1576018454710">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1575472068632" />
-    <state width="1273" height="172" key="GridCell.Tab.0.right" timestamp="1575472068633">
+    <state width="625" height="172" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1576018454710" />
+    <state width="625" height="172" key="GridCell.Tab.0.right" timestamp="1576018454710">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1575472068633" />
+    <state width="625" height="172" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1576018454710" />
+    <state width="625" height="215" key="GridCell.Tab.1.bottom" timestamp="1576018405399">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="625" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1576018405399" />
+    <state width="625" height="215" key="GridCell.Tab.1.center" timestamp="1576018405398">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="625" height="215" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1576018405398" />
+    <state width="625" height="215" key="GridCell.Tab.1.left" timestamp="1576018405398">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="625" height="215" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1576018405398" />
+    <state width="625" height="215" key="GridCell.Tab.1.right" timestamp="1576018405399">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="625" height="215" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1576018405399" />
     <state x="207" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1575454942547">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="207" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1575454942547" />
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1576011844204">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1296.741@70.27.1296.741" timestamp="1576011844204" />
     <state x="371" y="191" width="683" height="420" key="git4idea.merge.GitPullDialog" timestamp="1575458047113">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
