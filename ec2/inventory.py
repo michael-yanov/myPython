@@ -24,7 +24,8 @@ regions = [
 for region in regions:
     ec2_console = boto3.resource(service_name='ec2', region_name=region)
     filter_1 = {'Name': 'tag:Group', 'Values': ['production']}
-    for ec2 in ec2_console.instances.filter():
-        print(ec2.public_ip_address)
+    filter_2 = {'Name': 'instance-type', 'Values': ['t3.micro', 't2.micro']}
+    for ec2 in ec2_console.instances.filter(Filters=[filter_1, filter_2]):
+        print(ec2.public_ip_address, '-', ec2.id)
 
 
