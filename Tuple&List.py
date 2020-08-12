@@ -1,5 +1,0 @@
-# l = list(map(int(input('Enter the numbers: ').split())))
-# print(l)
-l = list(map(int,input('Enter the numbers with Space ').split()))
-print(l)
-print(max(l))
